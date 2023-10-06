@@ -3,8 +3,9 @@ const Banner = () => {
       <>
          <section className="">
             <div className="fixed w-full z-[-1]">
-               <div className="sunny relative h-screen w-full bg-bannerBg bg-no-repeat bg-cover">
-                  <div className="overlay w-full h-full bg-[#000000c9] absolute top-0 left-0"></div>
+               <div className="relative h-screen w-full">
+                  <img className="w-full h-full object-cover" src="images/myBanner.jpg" alt="myBanner.jpg" />
+                  <div className="w-full h-full bg-[#000000c9] absolute top-0 left-0"></div>
                </div>
             </div>
             <div className="h-screen bg-transparent flex flex-col items-center justify-center ml-[300px]">
