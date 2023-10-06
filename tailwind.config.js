@@ -15,7 +15,7 @@ export default {
         // 'headingTextShadow': '#dee3e4 ',
         'headingTextShadow': '#F2F4F4 ',
         'contactHead': '#252B33',
-        'contactColor': '#575353',
+        'paragraph': '#575353',
         'btnBorder': '#6C757D',
       },
       backgroundImage: {
@@ -36,6 +36,7 @@ export default {
       },
       spacing: {
         '70': '70px',
+        '40': '40px',
       }
     },
   },
