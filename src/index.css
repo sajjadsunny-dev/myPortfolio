@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+   --themeColor: #0DCAF0;
+   --sectionHeading: #0dcaf063;
+}
+
 ::selection {
-   background: #0DCAF0;
+   background: var(--themeColor);
+   color: #fff;
+}
+
+.sectionHeading::selection {
+   background: var(--sectionHeading);
 }

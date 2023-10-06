@@ -12,13 +12,14 @@ export default {
         'sideBarBg': '#111418',
         'profileBorder': '#343A40',
         'headingText': '#212529',
-        'headingTextShadow': '#F2F4F4',
+        // 'headingTextShadow': '#dee3e4 ',
+        'headingTextShadow': '#F2F4F4 ',
         'contactHead': '#252B33',
         'contactColor': '#575353',
         'btnBorder': '#6C757D',
       },
       backgroundImage: {
-        'bannerBg': "url('/img/hero-pattern.svg')",
+        'bannerBg': "url('images/myBanner.jpg')",
       },
       fontFamily: {
         'syne': ['Syne', 'sans-serif'],
@@ -26,6 +27,15 @@ export default {
       },
       boxShadow: {
         'btnShadow': '0px 5px 10px 0px rgba(0, 0, 0, 0.40)',
+      },
+      maxWidth: {
+        'customContainer': '1170px',
+      },
+      borderRadius: {
+        'customRadius': '30px',
+      },
+      spacing: {
+        '70': '70px',
       }
     },
   },
