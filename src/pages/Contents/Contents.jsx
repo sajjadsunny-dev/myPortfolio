@@ -3,6 +3,7 @@ import Banner from "../../components/Banner/Banner"
 import Services from "../../components/Services/Services"
 import Resume from "../../components/Resume/Resume"
 import Contact from "../../components/Contact/Contact"
+import Portfolio from "../../components/Portfolio/Portfolio"
 
 
 const Contents = () => {
@@ -13,6 +14,7 @@ const Contents = () => {
             <AboutMe />
             <Services />
             <Resume />
+            <Portfolio />
             <Contact />
          </div>
       </>

@@ -12,6 +12,29 @@
    color: #fff;
 }
 
+/* all Section heading selection custom css */
 .sectionHeading::selection {
    background: var(--sectionHeading);
 }
+
+/* portfolio part custom css */
+#portfolio .active {
+   color: var(--themeColor);
+}
+
+#portfolio .active::after {
+   transform: scaleX(1) !important;
+}
+
+#portfolio .filters .overlay {
+   transition: all .4s linear;
+   transform: scale(0);
+   opacity: 0;
+}
+
+#portfolio .filters:hover .overlay {
+   transform: scale(1);
+   opacity: 1;
+}
+
+/* portfolio part custom css */
