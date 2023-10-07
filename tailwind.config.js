@@ -16,7 +16,7 @@ export default {
         'headingTextShadow': '#F2F4F4 ',
         'contactHead': '#252B33',
         'paragraph': '#575353',
-        'btnBorder': '#6C757D',
+        'resumeBtn': '#6C757D',
       },
       backgroundImage: {
         'bannerBg': "url('images/myBanner.jpg')",
@@ -27,6 +27,8 @@ export default {
       },
       boxShadow: {
         'btnShadow': '0px 5px 10px 0px rgba(0, 0, 0, 0.40)',
+        'iconShadow': '0px 2px 5px 0px rgba(0, 0, 0, 0.25)',
+        'resumeShadow': '0px 0px 4px 0px rgba(0, 0, 0, 0.15);',
       },
       maxWidth: {
         'customContainer': '1170px',
