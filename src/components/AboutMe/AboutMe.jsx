@@ -2,7 +2,7 @@
 const AboutMe = () => {
    return (
       <>
-         <section className="bg-white h-screen">
+         <section className="bg-white">
             <div className="max-w-customContainer mx-auto px-3 py-70">
                <div className="relative mb-12">
                   <h2 className="sectionHeading font-poppins text-[130px] text-headingTextShadow font-bold text-center">ABOUT ME</h2>
