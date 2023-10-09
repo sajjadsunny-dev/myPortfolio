@@ -10,7 +10,7 @@ const Contents = () => {
    return (
       <>
          <Banner />
-         <div className="ml-[300px]">
+         <div className="ml-0 md:landscape:ml-[265px] xl:landscape:ml-[300px]">
             <AboutMe />
             <Services />
             <Resume />
