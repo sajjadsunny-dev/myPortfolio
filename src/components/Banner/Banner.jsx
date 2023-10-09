@@ -4,7 +4,7 @@ const Banner = () => {
          <section className="">
             <div className="fixed w-full z-[-1]">
                <div className="relative h-screen w-full">
-                  <img className="w-full h-full object-cover" src="images/myBanner.jpg" alt="myBanner.jpg" />
+                  <img className="w-full h-full object-cover object-[70%]" src="images/myBanner.jpg" alt="myBanner.jpg" />
                   <div className="w-full h-full bg-[#000000c9] absolute top-0 left-0"></div>
                </div>
             </div>
